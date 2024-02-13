@@ -4,11 +4,10 @@ class Germany : Country
 {
   String Country.GetName() { return "Germany"; }
 
-<<<<<<< Updated upstream
+fix-uint
+  void Country.CheckLegality(uint age)
   void Country.CheckLegality(int age)
-=======
   void Country.CheckPublicLegality(uint age)
->>>>>>> Stashed changes
   {
     if (age < 16)
     {

@@ -11,7 +11,7 @@ class Program
 
     // Take user input
     Console.Write("What is your age? ");
-    int age = int.Parse(Console.ReadLine() ?? "0");
+    uint age = uint.Parse(Console.ReadLine() ?? "0");
 
     // Check age
     Country.CheckForAllCountries(age);
